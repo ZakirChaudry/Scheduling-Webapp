@@ -14,3 +14,8 @@ class Day {
         this.orderOfTasks = orderOfTasks
     }
 }
+
+function getDate() {
+    let Date = document.getElementById("dateForm");
+    document.getElementById("printout").innerText = Date;
+}
